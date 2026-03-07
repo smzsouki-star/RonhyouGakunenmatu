@@ -176,8 +176,25 @@ function startQuiz() {
     // Limit to 5
     selectionIds = selectionIds.slice(0, 5);
 
-    // Map IDs to actual question objects
-    currentRoundQuestions = selectionIds.map(id => allQuestionsPool.find(q => q.id === id));
+    // Map IDs to actual question objects (undefinedは除外して古い進捗データとの不整合に対処)
+    const validQuestions = selectionIds
+        .map(id => allQuestionsPool.find(q => q.id === id))
+        .filter(q => q !== undefined);
+
+    // 不整合なIDを発見した場合、進捗データを修復して再スタート
+    if (validQuestions.length < selectionIds.length) {
+        const validIds = new Set(allQuestionsPool.map(q => q.id));
+        progress.correct = progress.correct.filter(id => validIds.has(id));
+        progress.incorrect = progress.incorrect.filter(id => validIds.has(id));
+        progress.unattempted = allQuestionsPool
+            .map(q => q.id)
+            .filter(id => !progress.correct.includes(id) && !progress.incorrect.includes(id));
+        saveProgress();
+        startQuiz(); // 修復後に再実行
+        return;
+    }
+
+    currentRoundQuestions = validQuestions;
 
     if (currentRoundQuestions.length === 0) {
         alert("問題がありません。");
