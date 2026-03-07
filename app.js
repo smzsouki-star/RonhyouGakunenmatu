@@ -392,7 +392,7 @@ function processAnswerResult(isCorrect, question) {
     answerResult.innerHTML = isCorrect ? '✨ Excellent!' : '💦 Oops...';
     answerResult.className = isCorrect ? 'correct' : 'incorrect';
     feedbackContainer.classList.add(isCorrect ? 'show-correct' : 'show-incorrect');
-    explanationText.textContent = question.explanation;
+    explanationText.innerHTML = question.explanation.replace(/\n|\r\n/g, '<br>');
     feedbackContainer.classList.remove('hidden');
 
     updateBackgroundColor();

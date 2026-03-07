@@ -7,16 +7,16 @@ const quizData = {
                 questions: [
                     { id: "v1_1", question: "「観光客を誘致する」に適切な英語は？", options: ["attract tourists", "invite tourists", "catch tourists", "pull tourists"], answer: 0, explanation: "attract は「〜を惹きつける、誘致する」という意味です。" },
                     { id: "v1_2", question: "「･･･を見晴らせる」に適切な英語は？", options: ["have a fine view of", "look a good sight of", "watch a great view of", "see a fine sight over"], answer: 0, explanation: "have a fine view of 〜 で「〜を見晴らせる、〜のよい景色が見える」となります。" },
-                    { id: "v1_3", question: "「･･･に指定される」に適切な英語は？", options: ["be designated as", "be appointed for", "be designed as", "be decided to"], answer: 0, explanation: "designate は「〜を指定する」。受動態で be designated as 〜 となります。" },
-                    { id: "v1_4", question: "「･･･に登録される」に適切な英語は？", options: ["be registered as", "be recorded to", "be signed as", "be entered in"], answer: 0, explanation: "register は「〜を登録する」。世界遺産に登録される時などによく使われます。" },
-                    { id: "v1_5", question: "「日帰り旅行に行く」に適切な英語は？", options: ["go on a day trip", "have a daily trip", "make a one day trip", "do a day travel"], answer: 0, explanation: "go on a trip で「旅行に行く」。日帰りは a day trip と表現します。" },
-                    { id: "v1_6", question: "「1泊2日の旅行をする」に適切な英語は？", options: ["have a two-day trip", "go on a one-night trip", "make a two days travel", "take a overnight trip"], answer: 0, explanation: "two-day は「2日間の」という形容詞として働きます。" },
-                    { id: "v1_7", question: "「･･･への行き方」に適切な英語は？", options: ["how to get to", "way to go to", "how to arrive", "method to reach"], answer: 0, explanation: "how to 〜 で「〜のしかた」。目的地に着くことは get to を使います。" },
-                    { id: "v1_8", question: "「･･･への道を教える」に適切な英語は？", options: ["show me the way to", "tell me the road to", "teach me the way to", "guide me to"], answer: 0, explanation: "道を教える（案内して見せる）ときは tell や teach ではなく show を使います。" },
-                    { id: "v1_9", question: "「･･･を横断する」に適切な英語は？", options: ["go across", "walk over", "pass through", "cross along"], answer: 0, explanation: "go across で「〜を横断する、渡る」。cross（動詞）と同じ意味です。" },
-                    { id: "v1_10", question: "「･･･を通り過ぎる」に適切な英語は？", options: ["go past", "pass by", "walk away", "go through"], answer: 0, explanation: "go past 〜 で「〜のそばを通り過ぎる」という意味になります。" },
-                    { id: "v1_11", question: "「運賃」に適切な英語は？", options: ["a fare", "a fee", "a charge", "a price"], answer: 0, explanation: "交通機関（電車、バスやタクシーなど）の運賃には fare を使います。" },
-                    { id: "v1_12", question: "「時刻表」に適切な英語は？", options: ["a timetable", "a schedule", "a timechart", "a calendar"], answer: 0, explanation: "電車やバスの「時刻表」は timetable と言います。" },
+                    { id: "v1_3", question: "The government has an important (　) to play in protecting the environment.", options: ["role", "game", "toy", "tool"], answer: 0, explanation: "政府は環境を守るうえで、重要な「役割」を果たす。play a roleで「役割を果たす」。" },
+                    { id: "v1_4", question: "The medicine she (　) for me worked perfectly.", options: ["prescribed", "subscribed", "inscribed", "ascribed"], answer: 0, explanation: "彼女が私に「処方してくれた」薬は完璧に効いた。prescribe=処方する。" },
+                    { id: "v1_5", question: "All people desire to live in (　) with one another.", options: ["peace", "piece", "pace", "peas"], answer: 0, explanation: "すべての人は、お互いに「平和」に暮らすことを望んでいる。in peace=平和に。" },
+                    { id: "v1_6", question: "He stood in front of the (　) building.", options: ["magnificent", "manifest", "manual", "manufacture"], answer: 0, explanation: "彼はその「壮大な」建物の前に立った。magnificent=壮大な。" },
+                    { id: "v1_7", question: "I finally (　) reading the book.", options: ["finished", "vanished", "banished", "punished"], answer: 0, explanation: "私はついにその本を読み「終えた」。finish doing=〜し終える。" },
+                    { id: "v1_8", question: "In (　) cases, we may have to cancel the flight.", options: ["extreme", "supreme", "stream", "scream"], answer: 0, explanation: "「極端な」場合には、フライトをキャンセルしなければならないかもしれない。extreme=極端な。" },
+                    { id: "v1_9", question: "Water flows in (　) below ground level.", options: ["channels", "tunnels", "funnels", "panels"], answer: 0, explanation: "水は地下の「水路」を流れる。channel=水路、海峡。" },
+                    { id: "v1_10", question: "We must try to preserve the (　) environment.", options: ["natural", "neutral", "mutual", "actual"], answer: 0, explanation: "私たちは「自然な」環境を守るよう努めなければならない。natural=自然の。" },
+                    { id: "v1_11", question: "It cannot be (　) that the earth is growing warmer.", options: ["denied", "defied", "decided", "divided"], answer: 0, explanation: "地球が温暖化していることは「否定できない」。It cannot be denied that 절=〜は否定できない。" },
+                    { id: "v1_12", question: "You should not try to (　) a tiger.", options: ["tame", "name", "game", "lame"], answer: 0, explanation: "トラを「飼いならそう」としてはいけない。tame=飼いならす。" },
                     { id: "v1_13", question: "「･･･行きの電車」に適切な英語は？", options: ["a train bound for", "a train going to", "a train leaving for", "a train arriving at"], answer: 0, explanation: "bound for 〜 で「〜行きの」。交通機関の目的地を表す際によく使われます。" },
                     { id: "v1_14", question: "「レジ係」に適切な英語は？", options: ["a cashier", "a clerk", "a register", "a staff"], answer: 0, explanation: "レジでお金を扱う係員のことを a cashier（キャッシャー）と呼びます。" },
                     { id: "v1_15", question: "「クレジットカードで支払う」に適切な英語は？", options: ["pay by credit card", "pay with credit card", "pay in credit card", "pay on credit card"], answer: 0, explanation: "支払い手段には by を使います。現金で支払う場合は pay in cash です。" },
@@ -136,56 +136,6 @@ const quizData = {
                     { id: "g3_18", question: "【義務・予定 be supposed to】私たちはここで靴を脱ぐことになっています。\nWe (　) (　) (　) take off our shoes here.", options: ["are supposed to", "are supposing to", "are planned to", "have supposed to"], answer: 0, explanation: "be supposed to do は「〜することになっている（ルールや予定などを表す）」という熟語です。" },
                     { id: "g3_19", question: "【知覚動詞 hear + 原形】私は彼女がピアノを弾くのを一度も聞いたことがない。\nI have never (　) her (　) the piano.", options: ["heard / play", "listened / play", "heard / played", "listening / playing"], answer: 0, explanation: "知覚動詞 hear + 目的語 + 原形 で「〜が〜するのを聞く」。現在完了形なので heard her play となります。" }
                 ]
-            },
-            partx4: {
-                title: "多義語・基本動詞の熟語",
-                questions: [
-                    { id: "g4_1", question: "どんなことがあっても、約束を守らなければならない。\nWhatever may happen, you must (　) your promise.", options: ["keep", "give", "defend", "hold"], answer: 0, explanation: "「約束を守る」は keep one's promise と言います。「破る」は break one's promise です。" },
-                    { id: "g4_2", question: "The editor hit (　) a good title for a new novel by a famous writer.", options: ["upon", "at", "over", "with"], answer: 0, explanation: "hit (up)on 〜 で「（考えなど）をふと思いつく」という熟語です。" },
-                    { id: "g4_3", question: "Keiko (　) with an American girl.", options: ["made friends", "became a friend", "came friends", "made a friend"], answer: 0, explanation: "make friends with 〜 で「〜と友達になる」。必ず friends（複数形）を使います。" },
-                    { id: "g4_4", question: "Kazu studied hard for many years in order to (　) his ambition of becoming a dentist.", options: ["realize", "proceed", "succeed", "obtain"], answer: 0, explanation: "realize は「〜に気づく」のほか、「（夢や野望などを）実現する」という意味があります。" },
-                    { id: "g4_5", question: "He may well take pride (　) his talent.", options: ["in", "about", "of", "with"], answer: 0, explanation: "take pride in 〜 または be proud of 〜 で「〜を誇りに思う」となります。" },
-                    { id: "g4_6", question: "Will you (　) after my cats while I'm away from home?", options: ["look", "keep", "put", "catch"], answer: 0, explanation: "look after 〜 で「〜の世話をする」。「留守中に猫の世話をしてくれますか」という意味です。" },
-                    { id: "g4_7", question: "Jane has been working very hard, so I think she (　) a long vacation.", options: ["deserves", "conserves", "reserves", "preserves"], answer: 0, explanation: "deserve は「〜に値する、ふさわしい」。一生懸命働いたので長い休暇をとるに値する、という意味です。" },
-                    { id: "g4_8", question: "The job wasn't very interesting, but (　) it was well-paid.", options: ["on the other hand", "all the more", "on the contrary", "in addition"], answer: 0, explanation: "「他方では、その一方で」を表す on the other hand が適しています。" },
-                    { id: "g4_9", question: "並べ替え：どの子にも尊敬できる人が必要だ。\nEvery child needs someone to look up to.\n[needs / look / someone / to / to / child / every / up]", options: ["Every child needs someone to look up to", "Every child look up to someone to needs", "Needs every child to look up to someone", "Someone needs every child to look up to"], answer: 0, explanation: "look up to 〜 で「〜を尊敬する」。ここでの to look up to は someone を修飾する不定詞の形容詞的用法です。" },
-                    { id: "g4_10", question: "並べ替え：その男は窃盗罪で告発された。\nThe man was charged with theft.\n[theft / with / was / man / charged]", options: ["The man was charged with theft", "The man charged with was theft", "The man was theft with charged", "With theft the man was charged"], answer: 0, explanation: "be charged with 〜 で「〜の罪で告発される、非難される」となります。" },
-                    { id: "g4_11", question: "並べ替え：タロウは大学を出たらすぐに父親の仕事を継ぐだろう。\nTaro will take over his father's business as soon as he leaves college.\n[will / business / his / father's / over / take]", options: ["will take over his father's business", "will take business over his father's", "his father's business will take over", "will over take his father's business"], answer: 0, explanation: "take over 〜 で「（仕事や責任などを）引き継ぐ」という意味の重要な熟語です。" },
-                    { id: "g4_12", question: "並べ替え：ジョンは国際問題にまったく興味を示さない。他国の苦しみに対してどうしてそんなに無関心でいられるのかわからない。\n... I don't know how he can be so indifferent to suffering in other countries.\n[can / indifferent / so / to / be]", options: ["can be so indifferent to", "can so be indifferent to", "so indifferent to can be", "be so indifferent to can"], answer: 0, explanation: "be indifferent to 〜 で「〜に無関心である」。so が indifferent を強調しています。" },
-                    { id: "g4_13", question: "並べ替え：台風が洪水を引き起こした。\nThe typhoon gave rise to the flood.\n[the flood / rise / the typhoon / to / gave]", options: ["The typhoon gave rise to the flood", "The typhoon rise to gave the flood", "The flood gave rise to the typhoon", "The typhoon gave to rise the flood"], answer: 0, explanation: "give rise to 〜 は「（望ましくない事態など）を引き起こす、生じさせる」という熟語です。" },
-                    { id: "g4_14", question: "並べ替え整序：We had a hard time (　).\n[meet / ends / both / making]", options: ["making both ends meet", "making meet both ends", "both ends making meet", "meet making both ends"], answer: 0, explanation: "make both ends meet で「収支を合わせる（収入の範囲内でやりくりする）」という慣用句です。" },
-                    { id: "g4_15", question: "並べ替え整序：I was upset, but I (　).\n[for / free / got / lunch / my]", options: ["got my lunch for free", "for free got my lunch", "got for free my lunch", "my lunch got for free"], answer: 0, explanation: "for free で「無料で、タダで」という意味になります。" },
-                    { id: "g4_16", question: "適切な語に直す問題。誤りがある部分の正しい形は？\nMary had a hard time understanding the new words... she decided to *look up them* in her dictionary instead.", options: ["look them up", "look for them", "lookup them", "look over them"], answer: 0, explanation: "他動詞＋副詞の熟語（look up 等）の目的語が代名詞 (them) の場合、代名詞は必ず間に挟んで look them up とします。" },
-                    { id: "g4_17", question: "下線部と同意のものを選びなさい：\nHe decided to *get rid of* all the magazines in his room.", options: ["discard", "tear", "classify", "submit"], answer: 0, explanation: "get rid of 〜 は「〜を取り除く、捨てる」。これは discard（捨てる）と同意です。" },
-                    { id: "g4_18", question: "下線部と同意のものを選びなさい：\nAs civilization grew more *complex*, better methods of communication were needed.", options: ["complicated", "comprehensive", "composed", "complete"], answer: 0, explanation: "complex（複雑な）は complicated と同意語です。" },
-                    { id: "g4_19", question: "下線部と同意のものを選びなさい：\nToday the *term* computer usually refers to highly complex electronic devices.", options: ["word with a special meaning", "charge", "semester", "fixed or limited period of time"], answer: 0, explanation: "ここでの term は「用語、専門用語（特別な意味を持つ言葉）」を意味します。" },
-                    { id: "g4_20", question: "下線部と同意のものを選びなさい：\nA friend of mine decided not to wait till his company *fired* him.", options: ["force somebody to leave his or her job", "shoot bullets from a gun", "make somebody feel very excited", "provide fuel for somebody"], answer: 0, explanation: "ここでの fire は「〜を解雇する、クビにする」という意味です（誰かに仕事を辞めさせること）。" }
-                ]
-            },
-            partx5: {
-                title: "前置詞でつかむ熟語・重要熟語",
-                questions: [
-                    { id: "g5_1", question: "Our school is within ten minutes (　) my house.", options: ["of", "to", "in", "for"], answer: 0, explanation: "within ... of 〜 で「〜から･･･（の時間・距離）以内のところに」という意味になります。" },
-                    { id: "g5_2", question: "A: What do you think of the manager's new plan, Paul?\nB: (　), I don't think it is going to work.", options: ["Between you and me", "At the last minute", "At the same time", "On the other hand"], answer: 0, explanation: "between you and me（you and I ではなく me）で「ここだけの話だけど／内緒だけど」という意味の慣用句です。" },
-                    { id: "g5_3", question: "I waited for two hours at the station but he never (　).", options: ["showed up", "turned in", "appeared on", "arrived on"], answer: 0, explanation: "show up で「（人が約束の場所などに）現れる、姿を見せる」という有名な熟語です。" },
-                    { id: "g5_4", question: "It is rude to stare (　) someone.", options: ["at", "into", "on", "to"], answer: 0, explanation: "stare at 〜 で「〜をじっと見つめる、ジロジロ見る」。特定の点を向く前置詞 at が使われます。" },
-                    { id: "g5_5", question: "She craved solitude and yet she was longing (　) an exciting life.", options: ["for", "of", "on", "with"], answer: 0, explanation: "long for 〜 で「〜を切望する、〜を待ち望む」。" },
-                    { id: "g5_6", question: "He played an active (　) in business until he was over eighty.", options: ["part", "position", "service", "use"], answer: 0, explanation: "play a part in 〜 で「〜において役割を果たす」。an active part で「積極的な役割」。" },
-                    { id: "g5_7", question: "This car is superior (　) that one in handling.", options: ["to", "by", "from", "than"], answer: 0, explanation: "superior to 〜 は「〜より優れている」。比較級ですが than ではなく to を使います（ラテン比較級）。" },
-                    { id: "g5_8", question: "\"Do you think he is the guy that broke the window?\" \"That's (　).\"", options: ["for sure", "to be sure", "certainly", "certainty"], answer: 0, explanation: "That's for sure. は会話表現で「それは確かだ」「間違いない」という意味です。" },
-                    { id: "g5_9", question: "(　) working. You're almost finished.", options: ["Keep on", "Try on", "Come on", "From now on"], answer: 0, explanation: "keep on doing で「〜し続ける」。Keep on working. で「働き続けなさい」となります。" },
-                    { id: "g5_10", question: "並べ替え：市長は次の選挙を心配しているようだ。\nThe mayor seems to be concerned about the next election.\n[be / election / about / seems / next / concerned / to / the]", options: ["seems to be concerned about the next election", "seems to be election about the next concerned", "seems to concerned be about the next election", "seems to be the next election about concerned"], answer: 0, explanation: "be concerned about 〜 は「〜について心配している、気にかける」という熟語です。" },
-                    { id: "g5_11", question: "並べ替え：議長は協定を結ぶ可能性があることを否定しなかった。\nThe chairman did not rule out the possibility of an agreement.\n[did / not / the / rule / possibility / out]", options: ["did not rule out the possibility", "did not rule the possibility out", "did not out rule the possibility", "did not possibility rule out the"], answer: 0, explanation: "rule out 〜 は「（可能性など）を排除する、除外する、ありえないとする」。" },
-                    { id: "g5_12", question: "並べ替え：なぜあなたは私が言ったようにやらなかったのか。\nWhy didn't you do it the way I told you?\n[told / the / I / you / way]", options: ["the way I told you", "I told you the way", "the way you told I", "I the way told you"], answer: 0, explanation: "the way + S + V で「SがVするように（方法で）」という副詞節を導く慣用的な表現です。" },
-                    { id: "g5_13", question: "並べ替え：フランス国旗の3色は「自由、平等、友愛」を表す。\nThe three national colors of the French flag stand for \"liberty, equality, and fraternity.\"\n[for / colors / French / of / the / flag / stand / national]", options: ["national colors of the French flag stand for", "national colors stand for of the French flag", "national flag for the French colors stand of", "national colors of the stand for French flag"], answer: 0, explanation: "stand for 〜 は「〜を表す、象徴する」という意味です。" },
-                    { id: "g5_14", question: "並べ替え：It is (　) the growing debt.\n[the / government / to / take / on / action / up / to / immediate]", options: ["up to the government to take immediate action on", "up to the government taking action on to immediate", "to the government up to take immediate action on", "take to immediate action on up to the government"], answer: 0, explanation: "be up to A to do で「〜するのはA次第だ、Aの責任だ」。take action on は「〜に対処（措置）する」。" },
-                    { id: "g5_15", question: "適切な語に直す問題。誤りがある部分の正しい形は？\nI prefer postponing the whole business *than* getting into debt.", options: ["to", "from", "for", "over"], answer: 0, explanation: "prefer A to B で「BよりAを好む」。比較ですが than ではなく to を用いるのがポイントです。" },
-                    { id: "g5_16", question: "下線部と同意のものを選びなさい：\nThis regulation should *be done away with*.", options: ["be abolished", "be modified", "be renewed", "be remade"], answer: 0, explanation: "do away with 〜 で「〜を廃止する」。受動態になっているので be abolished と同意です。" },
-                    { id: "g5_17", question: "下線部と同意のものを選びなさい：\nI have to *cut down* my expenses.", options: ["reduce", "repeat", "report", "return"], answer: 0, explanation: "cut down 〜 で「〜を切り詰める、削減する」。reduce と同じ意味です。" },
-                    { id: "g5_18", question: "下線部と同意のものを選びなさい：\nTony is *anxious to* join Big Mike's gang.", options: ["wants to", "hates to", "is apt to", "is reckless to"], answer: 0, explanation: "be anxious to do は「〜することを切望している」。つまり wants to (do) と非常に近い意味になります。" },
-                    { id: "g5_19", question: "下線部と同意のものを選びなさい：\nThe boys had no money, so it was *out of the question* for them to go to the movies.", options: ["impossible", "disagreeable", "dishonest", "unusual"], answer: 0, explanation: "out of the question は「問題外の→不可能で、絶対に無理で」という意味を持つイディオムです。" },
-                    { id: "g5_20", question: "下線部と同意のものを選びなさい：\nThey'll surely *carry out* their plan without difficulty.", options: ["perform", "transform", "uniform", "inform"], answer: 0, explanation: "carry out は「（計画・業務など）を実行する、遂行する」。perform も同様に「実行する」の意味で使われます。" }
-                ]
             }
         }
     },
@@ -196,17 +146,17 @@ const quizData = {
                 title: "多義語・基本動詞の熟語",
                 questions: [
                     { id: "u1_1", question: "どんなことがあっても、約束を守らなければならない。\nWhatever may happen, you must (　) your promise.", options: ["keep", "give", "defend", "hold"], answer: 0, explanation: "「約束を守る」は keep one's promise と言います。「破る」は break one's promise です。" },
-                    { id: "u1_2", question: "The editor hit (　) a good title for a new novel by a famous writer.", options: ["upon", "at", "over", "with"], answer: 0, explanation: "hit (up)on 〜 で「（考えなど）をふと思いつく」という熟語です。" },
-                    { id: "u1_3", question: "Keiko (　) with an American girl.", options: ["made friends", "became a friend", "came friends", "made a friend"], answer: 0, explanation: "make friends with 〜 で「〜と友達になる」。必ず friends（複数形）を使います。" },
-                    { id: "u1_4", question: "Kazu studied hard for many years in order to (　) his ambition of becoming a dentist.", options: ["realize", "proceed", "succeed", "obtain"], answer: 0, explanation: "realize は「〜に気づく」のほか、「（夢や野望などを）実現する」という意味があります。" },
-                    { id: "u1_5", question: "He may well take pride (　) his talent.", options: ["in", "about", "of", "with"], answer: 0, explanation: "take pride in 〜 または be proud of 〜 で「〜を誇りに思う」となります。" },
-                    { id: "u1_6", question: "Will you (　) after my cats while I'm away from home?", options: ["look", "keep", "put", "catch"], answer: 0, explanation: "look after 〜 で「〜の世話をする」。「留守中に猫の世話をしてくれますか」という意味です。" },
-                    { id: "u1_7", question: "Jane has been working very hard, so I think she (　) a long vacation.", options: ["deserves", "conserves", "reserves", "preserves"], answer: 0, explanation: "deserve は「〜に値する、ふさわしい」。一生懸命働いたので長い休暇をとるに値する、という意味です。" },
-                    { id: "u1_8", question: "The job wasn't very interesting, but (　) it was well-paid.", options: ["on the other hand", "all the more", "on the contrary", "in addition"], answer: 0, explanation: "「他方では、その一方で」を表す on the other hand が適しています。" },
+                    { id: "u1_2", question: "The editor hit (　) a good title for a new novel by a famous writer.", options: ["upon", "at", "over", "with"], answer: 0, explanation: "和訳：その編集者は、有名な作家による新しい小説の素晴らしいタイトルをふと思いついた。\r\n\r\nhit (up)on 〜 で「（考えなど）をふと思いつく」という熟語です。" },
+                    { id: "u1_3", question: "Keiko (　) with an American girl.", options: ["made friends", "became a friend", "came friends", "made a friend"], answer: 0, explanation: "和訳：ケイコはアメリカ人の女の子と友達になった。\r\n\r\nmake friends with 〜 で「〜と友達になる」。必ず friends（複数形）を使います。" },
+                    { id: "u1_4", question: "Kazu studied hard for many years in order to (　) his ambition of becoming a dentist.", options: ["realize", "proceed", "succeed", "obtain"], answer: 0, explanation: "和訳：カズは歯医者になるという野望（夢）を実現するために、何年も一生懸命勉強した。\r\n\r\nrealize は「〜に気づく」のほか、「（夢や野望などを）実現する」という意味があります。" },
+                    { id: "u1_5", question: "He may well take pride (　) his talent.", options: ["in", "about", "of", "with"], answer: 0, explanation: "和訳：彼が自分の才能を誇りに思うのももっともだ。\r\n\r\ntake pride in 〜 または be proud of 〜 で「〜を誇りに思う」となります。（may well = 〜するのももっともだ）" },
+                    { id: "u1_6", question: "Will you (　) after my cats while I'm away from home?", options: ["look", "keep", "put", "catch"], answer: 0, explanation: "和訳：私が留守の間、猫の世話をしてくれませんか。\r\n\r\nlook after 〜 で「〜の世話をする」という意味です。" },
+                    { id: "u1_7", question: "Jane has been working very hard, so I think she (　) a long vacation.", options: ["deserves", "conserves", "reserves", "preserves"], answer: 0, explanation: "和訳：ジェーンはずっと一生懸命働いているので、長い休暇をとるに値すると思う。\r\n\r\ndeserve は「〜に値する、ふさわしい」という意味です。" },
+                    { id: "u1_8", question: "The job wasn't very interesting, but (　) it was well-paid.", options: ["on the other hand", "all the more", "on the contrary", "in addition"], answer: 0, explanation: "和訳：その仕事はあまり面白くなかったが、他方では給料はよかった。\r\n\r\n「他方では、その一方で」を表す on the other hand が適しています。" },
                     {
                         id: "u1_9",
                         type: "sort",
-                        question: "どの子にも尊敬できる人が必要だ。\nEvery child needs someone to look up to.",
+                        question: "どの子にも尊敬できる人が必要だ。\n(  ) (  ) (  ) (  ) (  ) (  ) (  ) (  ).",
                         words: ["needs", "look", "someone", "to", "to", "child", "every", "up"],
                         correctOrder: ["every", "child", "needs", "someone", "to", "look", "up", "to"],
                         explanation: "look up to 〜 で「〜を尊敬する」。ここでの to look up to は someone を修飾する不定詞の形容詞的用法です。Every child needs someone to look up to."
@@ -214,74 +164,74 @@ const quizData = {
                     {
                         id: "u1_10",
                         type: "sort",
-                        question: "その男は窃盗罪で告発された。\nThe man was charged with theft.",
+                        question: "その男は窃盗罪で告発された。\nThe (  ) (  ) (  ) (  ) (  ).",
                         words: ["theft", "with", "was", "man", "charged"],
                         correctOrder: ["man", "was", "charged", "with", "theft"],
-                        explanation: "The man was charged with theft. になるように並べます。be charged with 〜 で「〜の罪で告発される、非難される」となります。"
+                        explanation: "「The man was charged with theft.」となるように並べます。be charged with 〜 で「〜の罪で告発される、非難される」となります。"
                     },
                     {
                         id: "u1_11",
                         type: "sort",
-                        question: "タロウは大学を出たらすぐに父親の仕事を継ぐだろう。\nTaro will take over his father's business as soon as he leaves college.",
+                        question: "タロウは大学を出たらすぐに父親の仕事を継ぐだろう。\nTaro (  ) (  ) (  ) (  ) (  ) (  ) as soon as he leaves college.",
                         words: ["will", "business", "his", "father's", "over", "take"],
                         correctOrder: ["will", "take", "over", "his", "father's", "business"],
-                        explanation: "Taro (will take over his father's business) as soon as... の順です。take over 〜 で「引き継ぐ」という意味の重要な熟語です。"
+                        explanation: "「Taro (will take over his father's business) as soon as...」の順です。take over 〜 で「引き継ぐ」という意味の重要な熟語です。"
                     },
                     {
                         id: "u1_12",
                         type: "sort",
-                        question: "ジョンは国際問題にまったく興味を示さない。他国の苦しみに対してどうしてそんなに無関心でいられるのかわからない。\n... I don't know how he can be so indifferent to suffering in other countries.",
+                        question: "ジョンは国際問題にまったく興味を示さない。他国の苦しみに対してどうしてそんなに無関心でいられるのかわからない。\n... I don't know how he (  ) (  ) (  ) (  ) (  ) suffering in other countries.",
                         words: ["can", "indifferent", "so", "to", "be"],
                         correctOrder: ["can", "be", "so", "indifferent", "to"],
-                        explanation: "how he (can be so indifferent to) suffering の順になります。be indifferent to 〜 で「〜に無関心である」。"
+                        explanation: "「how he (can be so indifferent to) suffering」の順になります。be indifferent to 〜 で「〜に無関心である」。"
                     },
                     {
                         id: "u1_13",
                         type: "sort",
-                        question: "台風が洪水を引き起こした。\nThe typhoon gave rise to the flood.",
+                        question: "台風が洪水を引き起こした。\n(  ) (  ) (  ) (  ) (  ).",
                         words: ["the flood", "rise", "the typhoon", "to", "gave"],
                         correctOrder: ["the typhoon", "gave", "rise", "to", "the flood"],
-                        explanation: "give rise to 〜 は「（望ましくない事態など）を引き起こす、生じさせる」という熟語です。"
+                        explanation: "「The typhoon gave rise to the flood.」の順になります。give rise to 〜 は「（望ましくない事態など）を引き起こす、生じさせる」という熟語です。"
                     },
                     {
                         id: "u1_14",
                         type: "sort",
-                        question: "We had a hard time (　).",
+                        question: "We had a hard time (  ) (  ) (  ) (  ).",
                         words: ["meet", "ends", "both", "making"],
                         correctOrder: ["making", "both", "ends", "meet"],
-                        explanation: "make both ends meet で「収支を合わせる（収入の範囲内でやりくりする）」という慣用句です。have a hard time doing（〜するのに苦労する）に繋がります。"
+                        explanation: "和訳：私たちは生活をやりくりするのにとても苦労した。\r\n\r\n「We had a hard time making both ends meet.」となります。make both ends meet で「収支を合わせる（収入の範囲内でやりくりする）」という慣用句です。have a hard time doing（〜するのに苦労する）に繋がります。"
                     },
                     {
                         id: "u1_15",
                         type: "sort",
-                        question: "I was upset, but I (　).",
+                        question: "I was upset, but I (  ) (  ) (  ) (  ) (  ).",
                         words: ["for", "free", "got", "lunch", "my"],
                         correctOrder: ["got", "my", "lunch", "for", "free"],
-                        explanation: "got my lunch for free（無料で昼食を手に入れた）の順です。for free で「無料で、タダで」という意味になります。"
+                        explanation: "和訳：私は怒っていたが、無料の昼食を手に入れた。\r\n\r\n「I was upset, but I got my lunch for free.」の順になります。for free で「無料で、タダで」という意味になります。"
                     },
-                    { id: "u1_16", question: "適切な語に直す問題。誤りがある部分の正しい形は？\nMary had a hard time understanding the new words... she decided to *look up them* in her dictionary instead.", options: ["look them up", "look for them", "lookup them", "look over them"], answer: 0, explanation: "他動詞＋副詞の熟語（look up 等）の目的語が代名詞 (them) の場合、代名詞は必ず間に挟んで look them up とします。" },
-                    { id: "u1_17", question: "下線部と同意のものを選びなさい：\nHe decided to *get rid of* all the magazines in his room.", options: ["discard", "tear", "classify", "submit"], answer: 0, explanation: "get rid of 〜 は「〜を取り除く、捨てる」。これは discard（捨てる）と同意です。" },
-                    { id: "u1_18", question: "下線部と同意のものを選びなさい：\nAs civilization grew more *complex*, better methods of communication were needed.", options: ["complicated", "comprehensive", "composed", "complete"], answer: 0, explanation: "complex（複雑な）は complicated と同意語です。" },
-                    { id: "u1_19", question: "下線部と同意のものを選びなさい：\nToday the *term* computer usually refers to highly complex electronic devices.", options: ["word with a special meaning", "charge", "semester", "fixed or limited period of time"], answer: 0, explanation: "ここでの term は「用語、専門用語（特別な意味を持つ言葉）」を意味します。" },
-                    { id: "u1_20", question: "下線部と同意のものを選びなさい：\nA friend of mine decided not to wait till his company *fired* him.", options: ["force somebody to leave his or her job", "shoot bullets from a gun", "make somebody feel very excited", "provide fuel for somebody"], answer: 0, explanation: "ここでの fire は「〜を解雇する、クビにする」という意味です（誰かに仕事を辞めさせること）。" }
+                    { id: "u1_16", question: "適切な語に直す問題。誤りがある部分の正しい形は？\nMary had a hard time understanding the new words... she decided to *look up them* in her dictionary instead.", options: ["look them up", "look for them", "lookup them", "look over them"], answer: 0, explanation: "和訳：メアリーは新しい単語を理解するのに苦労したので、代わりに辞書でそれらを調べることにした。\r\n\r\n他動詞＋副詞の熟語（look up 等）の目的語が代名詞 (them) の場合、代名詞は必ず間に挟んで look them up とします。" },
+                    { id: "u1_17", question: "下線部と同意のものを選びなさい：\nHe decided to *get rid of* all the magazines in his room.", options: ["discard", "tear", "classify", "submit"], answer: 0, explanation: "和訳：彼は部屋にある雑誌をすべて処分することに決めた。\r\n\r\nget rid of 〜 は「〜を取り除く、捨てる」。これは discard（捨てる）と同意です。" },
+                    { id: "u1_18", question: "下線部と同意のものを選びなさい：\nAs civilization grew more *complex*, better methods of communication were needed.", options: ["complicated", "comprehensive", "composed", "complete"], answer: 0, explanation: "和訳：文明がより複雑になるにつれて、コミュニケーションのより良い方法が必要とされた。\r\n\r\ncomplex（複雑な）は complicated と同意語です。" },
+                    { id: "u1_19", question: "下線部と同意のものを選びなさい：\nToday the *term* computer usually refers to highly complex electronic devices.", options: ["word with a special meaning", "charge", "semester", "fixed or limited period of time"], answer: 0, explanation: "和訳：今日、「コンピューター」という用語は通常、極めて複雑な電子機器を指す。\r\n\r\nここでの term は「用語、専門用語（特別な意味を持つ言葉）」を意味します。" },
+                    { id: "u1_20", question: "下線部と同意のものを選びなさい：\nA friend of mine decided not to wait till his company *fired* him.", options: ["force somebody to leave his or her job", "shoot bullets from a gun", "make somebody feel very excited", "provide fuel for somebody"], answer: 0, explanation: "和訳：私の友人は、会社が彼を解雇するまで待たないと決めた。\r\n\r\nここでの fire は「〜を解雇する、クビにする」という意味です（誰かに仕事を辞めさせること）。" }
                 ]
             },
             partu2: {
                 title: "前置詞でつかむ熟語・重要熟語",
                 questions: [
-                    { id: "u2_1", question: "Our school is within ten minutes (　) my house.", options: ["of", "to", "in", "for"], answer: 0, explanation: "within ... of 〜 で「〜から･･･（の時間・距離）以内のところに」という意味になります。" },
-                    { id: "u2_2", question: "A: What do you think of the manager's new plan, Paul?\nB: (　), I don't think it is going to work.", options: ["Between you and me", "At the last minute", "At the same time", "On the other hand"], answer: 0, explanation: "between you and me（you and I ではなく me）で「ここだけの話だけど／内緒だけど」という意味の慣用句です。" },
-                    { id: "u2_3", question: "I waited for two hours at the station but he never (　).", options: ["showed up", "turned in", "appeared on", "arrived on"], answer: 0, explanation: "show up で「（人が約束の場所などに）現れる、姿を見せる」という有名な熟語です。" },
-                    { id: "u2_4", question: "It is rude to stare (　) someone.", options: ["at", "into", "on", "to"], answer: 0, explanation: "stare at 〜 で「〜をじっと見つめる、ジロジロ見る」。特定の点を向く前置詞 at が使われます。" },
-                    { id: "u2_5", question: "She craved solitude and yet she was longing (　) an exciting life.", options: ["for", "of", "on", "with"], answer: 0, explanation: "long for 〜 で「〜を切望する、〜を待ち望む」。" },
-                    { id: "u2_6", question: "He played an active (　) in business until he was over eighty.", options: ["part", "position", "service", "use"], answer: 0, explanation: "play a part in 〜 で「〜において役割を果たす」。an active part で「積極的な役割」。" },
-                    { id: "u2_7", question: "This car is superior (　) that one in handling.", options: ["to", "by", "from", "than"], answer: 0, explanation: "superior to 〜 は「〜より優れている」。比較級ですが than ではなく to を使います（ラテン比較級）。" },
-                    { id: "u2_8", question: "\"Do you think he is the guy that broke the window?\" \"That's (　).\"", options: ["for sure", "to be sure", "certainly", "certainty"], answer: 0, explanation: "That's for sure. は会話表現で「それは確かだ」「間違いない」という意味です。" },
-                    { id: "u2_9", question: "(　) working. You're almost finished.", options: ["Keep on", "Try on", "Come on", "From now on"], answer: 0, explanation: "keep on doing で「〜し続ける」。Keep on working. で「働き続けなさい」となります。" },
+                    { id: "u2_1", question: "下線部と同意のものを選びなさい：\nNo one can *account for* his absence.", options: ["explain", "complain", "contain", "sustain"], answer: 0, explanation: "和訳：誰も彼の不在を説明できない。\r\n\r\naccount for 〜 は「〜の理由を説明する」。explain（説明する）と同意です。" },
+                    { id: "u2_2", question: "下線部と同意のものを選びなさい：\nHis theory doesn't *make sense* to me.", options: ["is not understandable", "is not comfortable", "is not reasonable", "is not visible"], answer: 0, explanation: "和訳：彼の理論は私には意味がわからない（理解できない）。\r\n\r\nmake sense は「意味をなす、理解できる」。ここでは否定形なので is not understandable と同意です。" },
+                    { id: "u2_3", question: "下線部と同意のものを選びなさい：\nI hope my warning will *make a difference*.", options: ["have an effect", "have an origin", "have an outcome", "have an excuse"], answer: 0, explanation: "和訳：私の警告が違いをもたらす（効果がある）ことを願う。\r\n\r\nmake a difference は「違いをもたらす、重要である、効果がある」。have an effect と近い意味です。" },
+                    { id: "u2_4", question: "下線部と同意のものを選びなさい：\nThe fire *broke out* in the middle of the night.", options: ["started suddenly", "ended suddenly", "continued somehow", "stopped somehow"], answer: 0, explanation: "和訳：火事は真夜中に突然発生した。\r\n\r\nbreak out は「（戦争、火事などが）突然起こる、勃発する」。started suddenly と同意です。" },
+                    { id: "u2_5", question: "下線部と同意のものを選びなさい：\nHe has finally *come up with* a great idea.", options: ["thought of", "brought about", "caught up with", "kept up with"], answer: 0, explanation: "和訳：彼はついに素晴らしいアイデアを思いついた。\r\n\r\ncome up with 〜 は「（考えなど）を思いつく、提案する」。thought of と同意です。" },
+                    { id: "u2_6", question: "下線部と同意のものを選びなさい：\nMany species have *died out*.", options: ["become extinct", "become distinct", "become instinct", "become strict"], answer: 0, explanation: "和訳：多くの種が絶滅した。\r\n\r\ndie out は「（種族などが）絶滅する、消滅する」。become extinct と同意です。" },
+                    { id: "u2_7", question: "下線部と同意のものを選びなさい：\nYou can *rely on* his words.", options: ["depend on", "insist on", "feed on", "live on"], answer: 0, explanation: "和訳：あなたは彼の言葉に頼ること（信頼すること）ができる。\r\n\r\nrely on 〜 は「〜に頼る、当てにする」。depend on と同意の重要熟語です。" },
+                    { id: "u2_8", question: "下線部と同意のものを選びなさい：\nChildren often *take after* their parents.", options: ["resemble", "assemble", "tremble", "stumble"], answer: 0, explanation: "和訳：子供はよく親に似る。\r\n\r\ntake after 〜 は「（血縁で年上の人）に似ている」。resemble と同意です。" },
+                    { id: "u2_9", question: "下線部と同意のものを選びなさい：\nDid you *turn in* your report yet?", options: ["submit", "admit", "permit", "commit"], answer: 0, explanation: "和訳：報告書はもう提出しましたか。\r\n\r\nturn in 〜 は「〜を提出する」。hand in や submit と同意です。" },
                     {
                         id: "u2_10",
                         type: "sort",
-                        question: "市長は次の選挙を心配しているようだ。\nThe mayor seems to be concerned about the next election.",
+                        question: "市長は次の選挙を心配しているようだ。\nThe mayor (  ) (  ) (  ) (  ) (  ) (  ) (  ) (  ).",
                         words: ["be", "election", "about", "seems", "next", "concerned", "to", "the"],
                         correctOrder: ["seems", "to", "be", "concerned", "about", "the", "next", "election"],
                         explanation: "seems to be concerned about the next election の順になります。be concerned about 〜 は「〜について心配している、気にかける」という熟語です。"
@@ -289,7 +239,7 @@ const quizData = {
                     {
                         id: "u2_11",
                         type: "sort",
-                        question: "議長は協定を結ぶ可能性があることを否定しなかった。\nThe chairman did not rule out the possibility of an agreement.",
+                        question: "議長は協定を結ぶ可能性があることを否定しなかった。\nThe chairman (  ) (  ) (  ) (  ) (  ) (  ) of an agreement.",
                         words: ["did", "not", "the", "rule", "possibility", "out"],
                         correctOrder: ["did", "not", "rule", "out", "the", "possibility"],
                         explanation: "did not rule out the possibility の順になります。rule out 〜 は「（可能性など）を排除する、除外する、ありえないとする」。"
@@ -297,7 +247,7 @@ const quizData = {
                     {
                         id: "u2_12",
                         type: "sort",
-                        question: "なぜあなたは私が言ったようにやらなかったのか。\nWhy didn't you do it the way I told you?",
+                        question: "なぜあなたは私が言ったようにやらなかったのか。\nWhy didn't you do it (  ) (  ) (  ) (  ) (  )?",
                         words: ["told", "the", "I", "you", "way"],
                         correctOrder: ["the", "way", "I", "told", "you"],
                         explanation: "the way I told you と繋ぎます。the way + S + V で「SがVするように（方法で）」という副詞節を導く慣用的な表現です。"
@@ -305,7 +255,7 @@ const quizData = {
                     {
                         id: "u2_13",
                         type: "sort",
-                        question: "フランス国旗の3色は「自由、平等、友愛」を表す。\nThe three national colors of the French flag stand for \"liberty, equality, and fraternity.\"",
+                        question: "フランス国旗の3色は「自由、平等、友愛」を表す。\nThe three (  ) (  ) (  ) (  ) (  ) (  ) (  ) (  ) \"liberty, equality, and fraternity.\"",
                         words: ["for", "colors", "French", "of", "the", "flag", "stand", "national"],
                         correctOrder: ["national", "colors", "of", "the", "French", "flag", "stand", "for"],
                         explanation: "(The three) national colors of the French flag stand for の順になります。stand for 〜 は「〜を表す、象徴する」という意味です。"
@@ -313,17 +263,17 @@ const quizData = {
                     {
                         id: "u2_14",
                         type: "sort",
-                        question: "It is (　) the growing debt.",
+                        question: "It is (  ) (  ) (  ) (  ) (  ) (  ) (  ) (  ) (  ) the growing debt.",
                         words: ["the", "government", "to", "take", "on", "action", "up", "to", "immediate"],
                         correctOrder: ["up", "to", "the", "government", "to", "take", "immediate", "action", "on"],
-                        explanation: "be up to A to do で「〜するのはA次第だ、Aの責任だ」。take action on は「〜に対処（措置）する」です。"
+                        explanation: "和訳：増大する負債に対して早急な手段をとるのは政府の責任だ。\r\n\r\n「It is up to the government to take immediate action on the growing debt.」となります。be up to A to do で「〜するのはA次第だ、Aの責任だ」。take action on は「〜に対処（措置）する」です。"
                     },
-                    { id: "u2_15", question: "適切な語に直す問題。誤りがある部分の正しい形は？\nI prefer postponing the whole business *than* getting into debt.", options: ["to", "from", "for", "over"], answer: 0, explanation: "prefer A to B で「BよりAを好む」。比較ですが than ではなく to を用いるのがポイントです。" },
-                    { id: "u2_16", question: "下線部と同意のものを選びなさい：\nThis regulation should *be done away with*.", options: ["be abolished", "be modified", "be renewed", "be remade"], answer: 0, explanation: "do away with 〜 で「〜を廃止する」。受動態になっているので be abolished と同意です。" },
-                    { id: "u2_17", question: "下線部と同意のものを選びなさい：\nI have to *cut down* my expenses.", options: ["reduce", "repeat", "report", "return"], answer: 0, explanation: "cut down 〜 で「〜を切り詰める、削減する」。reduce と同じ意味です。" },
-                    { id: "u2_18", question: "下線部と同意のものを選びなさい：\nTony is *anxious to* join Big Mike's gang.", options: ["wants to", "hates to", "is apt to", "is reckless to"], answer: 0, explanation: "be anxious to do は「〜することを切望している」。つまり wants to (do) と非常に近い意味になります。" },
-                    { id: "u2_19", question: "下線部と同意のものを選びなさい：\nThe boys had no money, so it was *out of the question* for them to go to the movies.", options: ["impossible", "disagreeable", "dishonest", "unusual"], answer: 0, explanation: "out of the question は「問題外の→不可能で、絶対に無理で」という意味を持つイディオムです。" },
-                    { id: "u2_20", question: "下線部と同意のものを選びなさい：\nThey'll surely *carry out* their plan without difficulty.", options: ["perform", "transform", "uniform", "inform"], answer: 0, explanation: "carry out は「（計画・業務など）を実行する、遂行する」。perform も同様に「実行する」の意味で使われます。" }
+                    { id: "u2_15", question: "適切な語に直す問題。誤りがある部分の正しい形は？\nI prefer postponing the whole business *than* getting into debt.", options: ["to", "from", "for", "over"], answer: 0, explanation: "和訳：私は借金をするよりも、すべての事業を延期する方がいいと思う。\r\n\r\nprefer A to B で「BよりAを好む」。比較ですが than ではなく to を用いるのがポイントです。" },
+                    { id: "u2_16", question: "下線部と同意のものを選びなさい：\nThis regulation should *be done away with*.", options: ["be abolished", "be modified", "be renewed", "be remade"], answer: 0, explanation: "和訳：この規制は廃止されるべきだ。\r\n\r\ndo away with 〜 で「〜を廃止する」。受動態になっているので be abolished と同意です。" },
+                    { id: "u2_17", question: "下線部と同意のものを選びなさい：\nI have to *cut down* my expenses.", options: ["reduce", "repeat", "report", "return"], answer: 0, explanation: "和訳：私は出費を切り詰めなければならない。\r\n\r\ncut down 〜 で「〜を切り詰める、削減する」。reduce と同じ意味です。" },
+                    { id: "u2_18", question: "下線部と同意のものを選びなさい：\nTony is *anxious to* join Big Mike's gang.", options: ["wants to", "hates to", "is apt to", "is reckless to"], answer: 0, explanation: "和訳：トニーはビッグマイクの一団（チーム）に参加することを切望している。\r\n\r\nbe anxious to do は「〜することを切望している」。つまり wants to (do) と非常に近い意味になります。" },
+                    { id: "u2_19", question: "下線部と同意のものを選びなさい：\nThe boys had no money, so it was *out of the question* for them to go to the movies.", options: ["impossible", "disagreeable", "dishonest", "unusual"], answer: 0, explanation: "和訳：少年たちはお金を持っていなかったため、彼らが映画に行くなど論外だ。\r\n\r\nout of the question は「問題外の→不可能で、絶対に無理で」という意味を持つイディオムです。" },
+                    { id: "u2_20", question: "下線部と同意のものを選びなさい：\nThey'll surely *carry out* their plan without difficulty.", options: ["perform", "transform", "uniform", "inform"], answer: 0, explanation: "和訳：彼らは困難なしにきっと計画を実行するだろう。\r\n\r\ncarry out は「（計画・業務など）を実行する、遂行する」。perform も同様に「実行する」の意味で使われます。" }
                 ]
             }
         }
