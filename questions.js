@@ -122,13 +122,41 @@ const quizData = {
                     { id: "g3_4", question: "「姉は高校でバイオリンが弾けるようになりました。」\nMy sister (　) (　) play the violin in high school.", options: ["learned to", "came to", "became to", "was able to"], answer: 0, explanation: "「（学んで／努力して）〜できるようになる」は learn to do で表現します。" },
                     { id: "g3_5", question: "「母は弟に自分の部屋を片付けさせた。」\nMy mother (　) my brother (　) his room.", options: ["made / clean", "had / cleaned", "let / clean", "got / to clean"], answer: 0, explanation: "使役動詞 make + 人 + 原形で「（強制的に）〜させる」。ここでは made my brother clean となります。" },
                     { id: "g3_6", question: "「私に、あなたが空いている時間を教えて（知らせて）ください。」\nPlease (　) me (　) when you are free.", options: ["let / know", "tell / me", "teach / to know", "make / know"], answer: 0, explanation: "使役動詞 let + 人 + 原形で「（本人が望む通りに）〜させてあげる」。let me know は「知らせてください」の定番フレーズです。" },
-                    { id: "g3_7", question: "並べ替え：「私は父に車でそこへ連れていってもらいました。」\n( got / take / my father / to / me / I ) there by car.", options: ["I got my father to take me", "I got take me to my father", "I got my father take to me", "I took my father to get me"], answer: 0, explanation: "「（説得したり頼んだりして）〜してもらう」は got + 人 + to do の形になります。" },
+                    {
+                        id: "g3_7",
+                        type: "sort",
+                        question: "並べ替え：「私は父に車でそこへ連れていってもらいました。」\n(  ) (  ) (  ) (  ) (  ) (  ) there by car.",
+                        words: ["got", "take", "my", "father", "to", "me", "I"],
+                        correctOrder: ["I", "got", "my", "father", "to", "take", "me"],
+                        explanation: "「（説得したり頼んだりして）〜してもらう」は got + 人 + to do の形になります。"
+                    },
                     { id: "g3_8", question: "「メアリーは自分の息子を台所で手伝わせました（現在分詞を使用）。」\nMary (　) her son (　) her in the kitchen.", options: ["had / helping", "got / helping", "made / help", "kept / to help"], answer: 0, explanation: "使役動詞 have + 人 + doing（現在分詞）で、「人に〜させておく、人に〜してもらう」という状況を表します。" },
-                    { id: "g3_9", question: "並べ替え：「私は彼のポケットから何かが落ちるのを見ました。」\nI ( drop / something / pocket / saw / his / from ).", options: ["I saw something drop from his pocket", "I saw drop something from his pocket", "I saw his pocket drop from something", "I something saw drop from his pocket"], answer: 0, explanation: "知覚動詞 see + 目的語 + 原形で「目的語が〜するのを見る」。ここでは saw something drop (from...) となります。" },
+                    {
+                        id: "g3_9",
+                        type: "sort",
+                        question: "並べ替え：「私は彼のポケットから何かが落ちるのを見ました。」\nI (  ) (  ) (  ) (  ) (  ) (  ).",
+                        words: ["drop", "something", "pocket", "saw", "his", "from"],
+                        correctOrder: ["saw", "something", "drop", "from", "his", "pocket"],
+                        explanation: "知覚動詞 see + 目的語 + 原形で「目的語が〜するのを見る」。ここでは saw something drop (from...) となります。"
+                    },
                     { id: "g3_10", question: "「観客の中には泣いているひともいた。」\n(　) (　) in the audience were crying.", options: ["Some people", "Any people", "Several person", "A people"], answer: 0, explanation: "「〜する人もいる（一部の人）」は Some people と表します。Some だけでも可能です。" },
                     { id: "g3_11", question: "「この本を読んだ学生はまだいない。」\n(　) (　) have read this book yet.", options: ["No students", "Not students", "None student", "Zero students"], answer: 0, explanation: "「〜な人は一人もいない」は No + 名詞（複数形も可）を主語に置いて No students と表現します。" },
-                    { id: "g3_12", question: "並べ替え：「この道路を行くと、市の中心部に着きます。」\n( will take / you / to / this road ) the center of the city.", options: ["This road will take you to", "You will take this road to", "This road will take to you", "You will take to this road"], answer: 0, explanation: "無生物主語を用いた文。This road（この道路が）will take you（あなたを連れて行く）to the center（中心部へ）。" },
-                    { id: "g3_13", question: "並べ替え：「今朝は大雪のため、外出できませんでした。」\nThe ( snow / me / going out / from / heavy / kept ) this morning.", options: ["heavy snow kept me from going out", "snow kept me heavy from going out", "heavy snow from going out kept me", "heavy snow kept going out from me"], answer: 0, explanation: "「主語 + keep + 目的語 + from doing」で「主語のせいで目的語は〜できない」。ここでは heavy snow kept me from going out となります。" },
+                    {
+                        id: "g3_12",
+                        type: "sort",
+                        question: "並べ替え：「この道路を行くと、市の中心部に着きます。」\n(  ) (  ) (  ) (  ) (  ) the center of the city.",
+                        words: ["will", "take", "you", "to", "this", "road"],
+                        correctOrder: ["this", "road", "will", "take", "you", "to"],
+                        explanation: "無生物主語を用いた文。This road（この道路が）will take you（あなたを連れて行く）to the center（中心部へ）。"
+                    },
+                    {
+                        id: "g3_13",
+                        type: "sort",
+                        question: "並べ替え：「今朝は大雪のため、外出できませんでした。」\nThe (  ) (  ) (  ) (  ) (  ) (  ) (  ) this morning.",
+                        words: ["snow", "me", "going", "out", "from", "heavy", "kept"],
+                        correctOrder: ["heavy", "snow", "kept", "me", "from", "going", "out"],
+                        explanation: "「主語 + keep + 目的語 + from doing」で「主語のせいで目的語は〜できない」。ここでは heavy snow kept me from going out となります。"
+                    },
                     { id: "g3_14", question: "【使役動詞 make】そのニュースを聞いて、私は悲しくなった。\nThe news (　) me (　).", options: ["made / sad", "made / sadness", "make / sad", "had / sadly"], answer: 0, explanation: "make + 目的語 + 形容詞 で「OをC（の状態に）する」。文脈から過去形で made me sad です。" },
                     { id: "g3_15", question: "【使役動詞 have + 過去分詞】私は昨日、自転車を修理してもらった。\nI (　) my bike (　) yesterday.", options: ["had / repaired", "got / repair", "have / to repair", "had / repairing"], answer: 0, explanation: "have + 物 + 過去分詞 で「（物を専門家などに）〜してもらう」。I had my bike repaired となります。" },
                     { id: "g3_16", question: "【無生物主語 help】インターネットのおかげで、私たちは情報を簡単に見つけることができる。\nThe internet (　) us (　) information easily.", options: ["helps / find", "helped / to find", "makes / find", "lets / finding"], answer: 0, explanation: "help + 人 + (to) 原形 で「人が〜するのを手伝う→おかげで〜できる」。ここでは helps us find となります。" },
